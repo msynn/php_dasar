@@ -14,7 +14,6 @@
  		for( $j = 1; $j <= 5; $j++ ) {
  			echo "<td>$i,$j</td>";
  		}
-
  		echo "<tr>";
  	}
   ?>
