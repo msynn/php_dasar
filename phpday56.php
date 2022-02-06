@@ -3,7 +3,8 @@
 $nilai = 80;
 
 if ($nilai >= 90 and $nilai <= 100) {
-	$grade = "A"
+	$grade = "A";
+	$status = "Lulus dengan Pujian";
 }
 elseif ($nilai >= 80) {
 	$grade = "A-";
