@@ -1,3 +1,16 @@
+<?php 
+// cek apakah tidak ada data di $_GET
+if ( !isset($_GET["nama"]) ||
+	 !isset($_GET["nim"]) ||
+	 !isset($_GET["email"]) ||
+	 !isset($_GET["jurusan"]) ||
+	 !isset($_GET["gambar"]) ) {
+	// redirect
+	header("Location: belajar.php");
+	exit;
+}
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,6 +21,7 @@
 		img {
 			width: 60px;
 			height: 60px;
+			
 		}
 	</style>
 </head>
