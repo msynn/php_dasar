@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +8,9 @@
 </head>
 <body>
 
-<h1>Selamat datang, <?= $_POST["nama"] ?></h1>
+<h1>Selamat datang, <?= $_POST["username"] ?></h1>
+
+<h1>Log out</h1>
 
 </body>
 </html>
