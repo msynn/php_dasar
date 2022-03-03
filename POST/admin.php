@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<h1>Selamat datang, <?= $_POST["username"] ?></h1>
+<h1>Selamat datang, <?= $_POST["username"]; ?></h1>
 
 <h1>Log out</h1>
 
